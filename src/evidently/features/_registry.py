@@ -77,3 +77,6 @@ register_type_alias(
 register_type_alias(
     GeneratedFeatures, "evidently.features.is_valid_sql_feature.IsValidSQL", "evidently:feature:IsValidSQL"
 )
+register_type_alias(
+    GeneratedFeatures, "evidently.features.text_contains_link_feature.ContainsLink", "evidently:feature:ContainsLink"
+)
