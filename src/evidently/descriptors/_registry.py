@@ -103,3 +103,8 @@ register_type_alias(
 register_type_alias(
     FeatureDescriptor, "evidently.descriptors.is_valid_sql_descriptor.IsValidSQL", "evidently:descriptor:IsValidSQL"
 )
+register_type_alias(
+    FeatureDescriptor,
+    "evidently.descriptors.contains_link_descriptor.ContainsLink",
+    "evidently:descriptor:ContainsLink",
+)
